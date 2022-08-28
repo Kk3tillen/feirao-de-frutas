@@ -1,6 +1,6 @@
 *{
-    padding: 0%;
-    margin: 0%;
+    padding: 0;
+    margin: 0;
 }
 
 h1{
@@ -8,26 +8,47 @@ h1{
     padding: 35px;
     background-color: rgba(21, 155, 99, 0.164);
 }
-h2{
-    padding: 1rem;
-    margin: 1rem;
 
-}
 p{
-    text-indent: 5%;
-    padding: 3px
+    text-indent: 10%;
 }
-hr.style-three {
+
+hr{
     border: 0;
     border-bottom: 1px dashed rgb(102, 36, 36);
     background: rgb(173, 170, 170);
+    width: 100%;
 }
-input[type=button] {
+input[type=button]{
     background-color: #65d6af;
     border: none;
     color: white;
     padding: 16px 32px;
     text-decoration: none;
     margin: 4px 2px;
-    cursor: pointer;
-  }
+    cursor: pointer;   
+}
+
+.itens{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    justify-content: space-between;
+    width: 75%;
+    padding: 30px;
+    
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    align-items: center;
+    
+}
+
+.itens-info{
+    display: grid;
+    gap: 25px;
+    width: 100%;
+}
